@@ -30,17 +30,17 @@ This is the backend system for the fintech application. It handles user onboardi
 
 ### Auth
 
-* We have an API to register users at `POST /api/register`
+* We have an API to register users at `POST /auth/register`
 
-* We have an API to verify OTP at `POST /api/verify-otp`
+* We have an API to verify OTP at `POST /auth/verify-otp`
 
-* We have an API to login at `POST /api/login`
+* We have an API to login at `POST /auth/login`
 
 ### Transactions
 
-* We have an API to transfer money at `POST /api/transfer`
+* We have an API to transfer money at `POST /transaction/transfer`
 
-* We have an API to get transaction history at `GET /api/transactions/{userId}`
+* We have an API to get transaction history at `GET /transaction/transactions/{userId}`
 
 ## Security
 
